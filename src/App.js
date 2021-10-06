@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-      <Weather />
+      <Weather defaultCity="New York" />
       <footer>
         This project was coded by Daria Sukhacheva and is {""}
       <a href="https://github.com/maJestic17/new-weather-app-react"
