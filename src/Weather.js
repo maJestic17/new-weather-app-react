@@ -14,7 +14,7 @@ function handleResponse(response){
     date:new Date(response.data.dt*1000),
     wind:response.data.wind.speed,
     description:response.data.weather[0].description,
-    iconUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
+    icon: response.data.weather[0].icon,
     city: response.data.name
     
 }); 
