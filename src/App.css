@@ -41,6 +41,7 @@
   background-size: cover;
 }
 .App footer {
+  text-align: center;
   font-size: 11px;
   color: #fff;
   margin: 10px 0;
