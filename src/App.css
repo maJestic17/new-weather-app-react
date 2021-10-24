@@ -34,7 +34,8 @@
   background-size: cover;
 }
 .App.night {
-  background: url("./Assets/night.jpg") center;
+  background: url("https://images.pexels.com/photos/802571/pexels-photo-802571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+    center;
   height: 100 vh;
   background-position: center;
   background-repeat: no-repeat;
