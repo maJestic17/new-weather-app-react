@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import "bootswatch/dist/flatly/bootstrap.min.css";
+import './Index.css';
 import App from './App';
-import 'bootstrap/dist/css/bootstrap.css';
 
 
 ReactDOM.render(
