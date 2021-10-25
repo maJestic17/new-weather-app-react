@@ -3,22 +3,23 @@ import './WeatherForecast.css';
 import './Weather.css';
 import React from "react";
 import Weather from "./Weather";
-import FormattedDate from './FormattedDate';
+
 
 
 export default function App() {
-  let time = FormattedDate
+  let time = new Date();
+  console.log(time);
 function background() {       
-       if (time >= 5 && time < 8) {
+       if (time.getHours() >= 5 && time.getHours() < 8) {
            return ("App sunrise")
         } else {
-            if (time >= 8 && time < 12) {
+            if (time.getHours() >= 8 && time.getHours() < 12) {
                 return ("App morning")
             } else { 
-            if (time >= 12 && time < 18) {
+            if (time.getHours() >= 12 && time.getHours() < 18) {
                 return ("App afternoon")
             } else { 
-                if (time >= 18 && time < 20) {
+                if (time.getHours() >= 18 && time.getHours() < 20) {
                     return ("App sunset")
                 } else {
                     return ("App night")
